@@ -1,14 +1,14 @@
 # An aquatic API
 
-A lightweight, quirky **REST API** that delivers interesting facts about fish. Built with **FastAPI** and integrated with external data sources for fresh content on every request.
+A lightweight, quirky **REST API** that delivers statistics about various fishes. Built with **FastAPI** and integrated with external data sources for fresh content on every request.
 
 ## Features
 
-- **Live Data** — Fetches real fish facts from API-Ninjas (no hardcoded data)
+- **Live Data** — Fetches real fish facts from certified sources (no hardcoded tidbits)
 - **Rate Limiting** — Protected with SlowAPI (30 requests/min per IP)
 - **Smart Caching** — In-memory caching for better performance
-- **CORS Enabled** — Ready to be consumed by frontend apps and static sites (Neocities, etc.)
-- **Clean Architecture** — Environment variables, proper error handling, and structured code
+- **CORS Enabled** — Ready to be consumed by frontend apps and static websites
+- **Clean Architecture** — Environment variables with error handling and structured code
 - **Easy Deployment** — Ready for Render, Railway, Fly.io, Docker, etc.
 
 ## Purpose
